@@ -38,11 +38,9 @@ app.get('/', async (req, res) => {
     /**
      * Additional custom fields for linking request
      **/
-    const customFileds = [
-        'my custom field 1 value',
-        'my custom field 2 value',
-        'my custom field 3 value'
-    ];
+    const customFields = {
+        someKey: "some-value"
+    }
 
     const options = {
         token: botbyeToken,
