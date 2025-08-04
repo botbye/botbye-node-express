@@ -1,4 +1,4 @@
-import type Request from "express"
+import type { Request } from "express"
 import type { TBotByeInitOptions, TBotByeResponse, TValidateRequestOptions as TValidateRequestOptionsCore } from 'botbye-node-core';
 
 export function init(options: TBotByeInitOptions): typeof validateRequest;
