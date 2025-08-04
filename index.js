@@ -1,6 +1,6 @@
 const core = require("botbye-node-core");
 
-core.initPackageInfo({ name: 'NodeJS-Express', version: '1.0' });
+core.initPackageInfo({ name: 'NodeJS-Express', version: '1.0.4' });
 
 function init(options) {
   core.init(options);

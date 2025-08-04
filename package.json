@@ -2,7 +2,7 @@
   "name": "botbye-node-express",
   "packageManager": "yarn@3.4.1",
   "main": "index.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "dependencies": {
     "botbye-node-core": "^1.0.3"
