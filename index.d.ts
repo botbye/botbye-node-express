@@ -1,11 +1,8 @@
-import { Request } from "@types/express"
-
-import type { TBotByeInitOptions, TBotByeResponse, TValidateRequestOptions as TValidateRequestOptionsCore } from 'botbye-node-core';
-
-export function init(options: TBotByeInitOptions): typeof validateRequest;
-
-export type TValidateRequestOptions = Omit<TValidateRequestOptionsCore, "requestInfo" | "headers"> & {
-    request: Request
-}
-
-export function validateRequest(options: TValidateRequestOptions): Promise<TBotByeResponse>;
+import { Request } from "express";
+import { TBotByeInitOptions, TBotByeResponse, TValidateRequestOptions as TValidateRequestOptionsCore } from "botbye-node-core";
+declare function init(options: TBotByeInitOptions): typeof validateRequest;
+type TValidateRequestOptions = Omit<TValidateRequestOptionsCore, "requestInfo" | "headers"> & {
+    request: Request;
+};
+declare function validateRequest(options: TValidateRequestOptions): Promise<TBotByeResponse>;
+export { type TValidateRequestOptions, type TBotByeResponse, init, validateRequest, };
