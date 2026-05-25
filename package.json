@@ -1,6 +1,6 @@
 {
   "name": "@botbye/express",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "BotBye! integration for Node.js Express",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -26,7 +26,7 @@
     "url": "https://github.com/botbye/botbye-node-express"
   },
   "dependencies": {
-    "@botbye/node-core": "^2.0.0"
+    "@botbye/node-core": "^2.1.1"
   },
   "peerDependencies": {
     "express": ">=4"
