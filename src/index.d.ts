@@ -79,4 +79,5 @@ declare const init: (options: import("@botbye/node-core").TInitOptions) => void,
     getLogger(): import("@botbye/node-core").TLogger;
 };
 export { init, evaluate, dev, factory, };
+export { phishing, phishingFactory, } from "./phishing";
 export type * from "@botbye/node-core";
